@@ -1,2 +1,2 @@
-# fb-services-exercise
-Additional Services Workshop Exercise
+# Services Workshop
+* Proposed Service exercise for in class demo.
