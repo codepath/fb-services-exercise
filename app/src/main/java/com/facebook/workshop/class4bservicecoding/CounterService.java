@@ -34,7 +34,7 @@ public class CounterService extends Service {
       intent.putExtra(COUNT, Integer.toString(++mCount));
 
       // TODO: broadcast the message to the activity
-      mLocalBroadcastManager.sendBroadcast(intent);
+
 
       mServiceHandler.sendEmptyMessageDelayed(0, DELAY_MS);
     }

@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity {
       @Override
       public void onClick(View v) {
         // TODO: start the CounterService service. Hint: see newCounterServiceIntent().
-        startService(newCounterServiceIntent());
+
       }
     });
   }
@@ -61,7 +61,7 @@ public class MainActivity extends ActionBarActivity {
 
     // TODO: unregister the mBroadcastReceiver receiver.
     // Bonus: make sure not to unregister the service if it's already unregistered.
-    mLocalBroadcastManager.unregisterReceiver(mBroadcastReceiver);
+
   }
 
   @Override
@@ -69,7 +69,7 @@ public class MainActivity extends ActionBarActivity {
     super.onDestroy();
 
     // TODO: stop the service. Bonus: only stop the service if it was started.
-    stopService(newCounterServiceIntent());
+
   }
 
   /**
